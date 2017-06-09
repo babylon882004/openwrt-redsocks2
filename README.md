@@ -28,7 +28,6 @@ RedSocks2 for OpenWrt
    ```
 
 修改Makefile编译最新Realease版本
----
    ```bash
 
    去原作者github查看最新realease版本https://github.com/semigodking/redsocks/releases
