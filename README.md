@@ -25,8 +25,7 @@ RedSocks2 for OpenWrt
    make menuconfig
    # 开始编译
    make package/redsocks2/compile V=99
-   ```
- - 编译最新realease版本
+  - 编译最新realease版本
   ---
    ```bash
    去原作者github查看最新realease版本https://github.com/semigodking/redsocks/releases
