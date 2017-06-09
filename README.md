@@ -26,5 +26,18 @@ RedSocks2 for OpenWrt
    # 开始编译
    make package/redsocks2/compile V=99
    ```
+编译最新realease版本
+---
+   ```bash
+   #去原作者github查看最新realease版本https://github.com/semigodking/redsocks/releases
+   #修改Makefile中PKG_VERSION:后的版本值
+   #将0.66改成最新realease版本
+   cd /
+   wget https://github.com/semigodking/redsocks/archive/release-0.66.tar.gz
+   #找出gz源码包的md5校验码
+   find /release-0.66.tar.gz |xargs md5sum|sort
+   #修改Makefile中PKG_MD5SUM::后的md5校验码
+    
+    ```
 
 ----------
